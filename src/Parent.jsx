@@ -2,7 +2,7 @@ import { useState } from "react";
 import Child from "./Child";
 
 function Parent() {
-  const [user, setUser] = useState({
+  const [user] = useState({
     name: "Veeresh",
     age: 22,
     course: "React JS",
